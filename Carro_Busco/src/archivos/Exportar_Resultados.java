@@ -22,7 +22,7 @@ public class Exportar_Resultados {
    public void exportar(List<Carro_Bean> carritos) throws IOException {
        
        
-        String outputFile = "C:/Users/user/Desktop/Retiros_DepositosAT/bd_caracteristicas_carro_busco.csv";
+        String outputFile = "G:/Mi unidad/Digital_Balance_TB/Base_carro_busco/bd_caracteristicas_carro_busco.csv";
 
      boolean alreadyExists = new File(outputFile).exists();
 
